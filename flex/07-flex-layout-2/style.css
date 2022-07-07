@@ -26,3 +26,72 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* -- ANSWERS -- */
+
+/* * { 
+  outline: solid firebrick 2px;
+} */
+
+/* ELEMENT SELECTORS */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  font-size: 24px;
+}
+
+/* CLASS SELECTORS */
+
+.body {
+  display: flex;
+  flex: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  flex-shrink: 0;
+  width: 300px;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  margin: 16px;
+  padding: 32px;
+}
